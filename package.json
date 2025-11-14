@@ -24,7 +24,9 @@
     "update-browserslist-db": "^1.1.4"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build:frontend": "npm --prefix frontend run build",
+    "build": "npm run build:frontend"
   },
   "keywords": [],
   "author": "",
